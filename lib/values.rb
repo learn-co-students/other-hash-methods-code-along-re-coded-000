@@ -10,4 +10,12 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  arr=[]
+  groceries.each do |k,v|
+    v.each do |e|
+      arr.push(e)
+
+    end
+  end
+  return arr
 end
