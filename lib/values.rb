@@ -10,4 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  get_the_values =["milk", "yogurt", "cheese", "carrots", "broccoli", "cucumbers", "chicken", "steak", "salmon", "rice", "pasta"]  
 end
