@@ -8,6 +8,8 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
-def get_the_keys(groceries)
+
   #code your solution here!
+  def get_the_keys(groceries)
+  groceries.keys.flatten
 end
